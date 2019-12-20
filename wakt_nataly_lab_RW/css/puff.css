@@ -1,0 +1,45 @@
+/* Tittis kod */
+section.puff-container {
+    width: 80%;
+    margin: 50px auto 0;
+    background: #000;
+    overflow: hidden;
+    display: flex; 
+    flex-flow: row wrap;
+    
+}
+.puff-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    justify-content: center;
+    width: 100%;
+}
+.puff-container h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+p.ingress {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+.puff-container > .puff {
+    width: 33.333%;
+    min-width: 200px;
+    margin: 0; 
+    padding: 10px;
+    order: 2;
+    flex-flow: row wrap;
+}
+.puff-container a {
+    text-decoration: none;
+    color: #fff;
+}
+.puff-container img {
+    display: block;
+    max-width: 100%;
+}
+/* Slut på tittis kod */
